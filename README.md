@@ -3,4 +3,11 @@ In the provided notebook, one can evaluate a partial differential equation easil
 
 ## The Problem
 In the given notebook we have tried to solve for a partial differential equation which have the following form,
-$$\dfrac{\partial y(x,t)}{\partial t} = \dfrac{\partial^2 y(x,t)}{\partial x^2}$$
+$$\dfrac{\partial y(x,t)}{\partial t} = \dfrac{\partial^2 y(x,t)}{\partial x^2},$$
+our choice for the boundary conditions for the purpose of illustration was, 
+$$y(x,t) = \sin(\pi x),$$
+$$y(0,t) = y(5,t) = 0.$$
+
+It is to be noted that the provided notebook, can be modified to suit any pde given in-hand.
+
+
